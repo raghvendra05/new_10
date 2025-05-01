@@ -1,0 +1,103 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+                                                                    /* header */
+body{
+    width: 100%;
+}
+.sec_0{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+.sec_0 nav{
+    margin: 0 28px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.headLogo img{
+    width: 123px;
+    height: 68px;
+
+}
+.featureAnddownloadApp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
+}
+.featureAnddownloadApp ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 015px;
+
+}
+.featureAnddownloadApp ul li{
+    margin-right: 14px;
+    font-size: 14px;
+    
+}
+.featureAnddownloadApp ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.featureAnddownloadApp button{
+    width: 158px;
+    height: 40px;
+    font-size: 16px;
+    padding: 1px 6px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.safe_heros{
+    display: none;
+}
+@media (max-width:991px){
+    /* cowards */
+    .safe_cowards{
+        display: none;
+    }
+    /* heros */
+    .safe_heros{
+        display: block;
+    }
+    nav .featureAnddownloadApp ul{
+        display:none;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero button{
+        background-color: white;
+        color: black;
+        border: 0;
+        padding: 0;
+        text-wrap: wrap;
+    }
+    .hero img{
+        width: 30px;
+        height: 30px;
+    }
+    .sec_0 nav{
+        margin: 0;
+    }
+}
+                                                                /* sec-1/ cards */
+.sec-1{
+    width: 100%;
+    margin: calc(100vh - 92px);
+}
+
+/* probelm with calc and finxed position */

@@ -1,0 +1,291 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+                                                                    /* header */
+body{
+    width: 100%;
+}
+.sec_0{
+    width: 100%;
+    padding: 10px;
+}
+.sec_0 nav{
+    margin: 0 28px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.headLogo img{
+    width: 123px;
+    height: 68px;
+
+}
+.featureAnddownloadApp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
+}
+.featureAnddownloadApp ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 015px;
+
+}
+.featureAnddownloadApp ul li{
+    margin-right: 14px;
+    font-size: 14px;
+    
+}
+.featureAnddownloadApp ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.featureAnddownloadApp button{
+    width: 158px;
+    height: 40px;
+    font-size: 16px;
+    padding: 1px 6px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.safe_heros{
+    display: none;
+}
+@media (max-width:991px){
+    /* cowards */
+    .safe_cowards{
+        display: none;
+    }
+    /* heros */
+    .safe_heros{
+        display: block;
+    }
+    nav .featureAnddownloadApp ul{
+        display:none;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero button{
+        background-color: white;
+        color: black;
+        border: 0;
+        padding: 0;
+        text-wrap: wrap;
+    }
+    .hero img{
+        width: 30px;
+        height: 30px;
+    }
+    .sec_0 nav{
+        margin: 0;
+    }
+}
+
+                                                                            /* section-1 */
+
+.sec-1{
+    margin-bottom: 80px;
+    width: 100%;
+}
+.balancer{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 55% 40%;
+    margin: 20px 10px;
+    padding: 0 10px;
+    gap: 40px;
+
+}
+.inpFields form{
+    display: flex;
+    flex-direction: column;
+}
+.lftPrt{
+    width: 100%;
+    /* margin-top: 40px; */
+    
+}
+.lftPrt h1{
+    font-size: 50px;
+    margin: 0 0 0 10px;
+}
+.lftPrt h6{
+    font-size: 20px;
+    margin-top: 30px ;
+}
+.f_div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+.f_div label{
+    font-size: 16px;
+}
+.f_div input{
+    margin-top: 12px;
+    padding: 0 7px;
+    height: 52px;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+}
+.f_div select{
+    margin-top: 12px;
+    padding: 0 7px;
+    height: 52px;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    color:#a5a4a4
+
+}
+.f_comment input{
+    height: 199px;
+}
+form button{
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 1px 6px;
+    background-color: #f9c935;
+    height: 52px;
+    border: none;
+    border-radius:4px ;
+}
+.rgtPart{
+    width: 100%;
+
+    /* width: auto; */
+    /* height: 957px; */
+}
+                                                                                    /* right side */
+
+.rgtPart{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.rgtPart img{
+    float: right;
+}
+.dot_img{
+
+}
+.address{
+    margin-top: 20px;
+}
+
+.addrs1{
+    margin-bottom: 66px;
+}
+.addrs1 h4{
+    font-size: 16px;
+}
+.addrs1 p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+#CIN{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+                                                                                /* fooetr */
+
+.sec-foot{
+    background-color: black;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3,1fr);
+    padding:40px 15px ;
+}
+.all_appus {
+    color: white;
+    display: flex;
+    padding:10px 20px;
+
+}
+.all_appus .costumer_app{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.all_appus img{
+    width: 150px;
+    height: 40px;
+}
+
+.all_appus h4{
+    margin: 20px 0;
+    
+}
+.all_appus .kaptan_app{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+                                                /* ul options */
+
+
+.useless_pages ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.useless_pages ul li{
+    padding: 0px 20px;
+}
+.useless_pages ul li a{
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.social_links{
+    text-align: center;
+    color: white;
+}
+
+
+                                            /* copywrite */
+.horixon_line{
+    color: white;
+    background-color: black;
+    padding: 20px 20px;
+}
+.horixon_line .h_l_1 {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(36, 29, 29); 
+    
+}
+.copyrighting{
+    padding-top: 30px;
+    text-align: center;
+}
+@media(max-width:700px){
+    .sec-foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .all_appus{
+        padding:0;
+    }   
+
+}
