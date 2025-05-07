@@ -89,6 +89,22 @@
         display: block;
     }
 }
+@media(max-width:347px){
+    .smol_screen_primo{
+        display: block;
+    }
+    .smol_screen_null{
+        display: none;
+    }
+    .smol_screen_primo nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .smol_screen_primo nav ul {
+        padding: 10px;
+    }
+}
+
                                                                                     /* doubt que */
 /* .head_feature nav ul li a::after{
     content: '';
@@ -285,6 +301,13 @@ h1:hover::after{
         display: block;
     } */
 }
+@media(max-width:530px){
+    .img_turf{
+        display: flex;
+        flex-direction:column ;
+    }
+}
+
 
                                                     /* section3 */
 .sec-2{

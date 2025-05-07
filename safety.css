@@ -80,7 +80,7 @@ body{
     .safe_heros{
         display: block;
     }
-    nav .featureAnddownloadApp ul{
+    nav .featureAnddownloadApp {
         display:none;
     }
     .hero{
@@ -101,6 +101,31 @@ body{
     }
     .sec_0 nav{
         margin: 0;
+    }
+}
+@media (max-width:347px){
+    .smol_screen_primero {
+
+    }    
+    nav .featureAnddownloadApp {
+        display:block;
+    }
+    nav .featureAnddownloadApp ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav .featureAnddownloadApp ul li{
+        padding: 10px;
+    }
+    .sec_0 nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .smol_screen_decimus{
+        display: none;
     }
 }
 
@@ -253,4 +278,14 @@ body{
         padding:0;
     }   
 
+}
+
+@media(max-width:700px){
+    .all_appus{
+        display: flex;
+        flex-direction: column;
+    }
+    .useless_pages ul li{
+        padding: 0 7px;
+    }
 }

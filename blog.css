@@ -110,6 +110,32 @@ body{
         margin: 0;
     }
 }
+@media (max-width:347px){
+    .smol_screen_primero {
+
+    }    
+    nav .featureAnddownloadApp {
+        display:block;
+    }
+    nav .featureAnddownloadApp ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav .featureAnddownloadApp ul li{
+        padding: 10px;
+    }
+    .sec_0 nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .smol_screen_decimus{
+        display: none;
+    }
+}
+
                                                                 /* sec-1/ cards */
 .sec-1{
     margin: 100px 0 180px;
@@ -189,6 +215,13 @@ body{
     }    
     
 }
+@media(max-width:768px){
+    .sec-1{
+        margin: 150px 0 180px;
+
+    }
+}
+
 
 
                                                                 /* footer */
