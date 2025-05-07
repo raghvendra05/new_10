@@ -301,6 +301,7 @@ html,body{
 
 .bg_grey .inr_main img{
     width: 400px;
+    /*correct from 400 to 200*/
     height: 400px;
 }
 .heros{
@@ -345,6 +346,11 @@ html,body{
         display: block;
         /* margin :0;     */
     }   
+    
+    .bg_grey .inr_main img{
+        width: 280px;
+        height: 280px;
+    }
 }
 /* @media(max-width:470px){
     .inr_main img{
