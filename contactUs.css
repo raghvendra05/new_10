@@ -102,6 +102,32 @@ body{
         margin: 0;
     }
 }
+@media (max-width:347px){
+    .smol_screen_primero {
+
+    }    
+    nav .featureAnddownloadApp {
+        display:block;
+    }
+    nav .featureAnddownloadApp ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav .featureAnddownloadApp ul li{
+        padding: 10px;
+    }
+    .sec_0 nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .smol_screen_decimus{
+        display: none;
+    }
+}
+
 
                                                                             /* section-1 */
 
@@ -208,7 +234,14 @@ form button{
 }
 #CIN{
     font-size: 16px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+}
+@media(max-width:568px){
+    #CIN{
+        max-width: 100%;
+        text-wrap: wrap;
+        
+    }    
 }
 
                                                                                 /* fooetr */
@@ -296,5 +329,15 @@ form button{
     .all_appus{
         padding:0;
     }   
+
+}
+@media(max-width:340px){
+    .all_appus{
+        display: flex;
+        flex-direction: column;
+    }
+    .useless_pages ul li{
+        padding: 0 7px;
+    }
 
 }
