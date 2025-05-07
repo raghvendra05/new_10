@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+
 }
 
                                                                         /* <!-- header --> */
@@ -28,6 +32,10 @@
     padding:0 15px;
     align-items: center;
     
+}
+.Main-head li{
+    font-weight:600 ;
+
 }
 .Abt_heros{
     display: none;
@@ -61,8 +69,13 @@
     text-decoration:none ;
     color: black;
     margin-right: 10px;
+    font-weight: 500;
 
 
+}
+.sec-0 button a{
+    text-decoration: none;
+    color: white;
 }
 @media(max-width:990px){
     .Main-head img{
@@ -160,7 +173,7 @@ h1:hover::after{
     font-size: 50px;
 }
 .main_bg_img .only_flex .text_turf .p_head{
-    font-weight: 900;
+    font-weight: 800;
     font-size: 20px;
     margin-top: 30px;
 }

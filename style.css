@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    /* font-weight: 00; */
+    
     /* max-width: 1200px; */
 }
 html,body{
@@ -73,7 +78,7 @@ html,body{
     margin-right: var(--FEATURE_RGT_MARGIN);
     font-size: var(--HEAD_FEATURE_FT_SZ);
     list-style-type: none;
-    font-weight: 100;
+    font-weight: 600;
 }
 .nav-bar ul a{
     text-decoration:none ;
@@ -118,6 +123,10 @@ html,body{
         padding: .3rem .8rem;
         text-align: center;
     }
+    .sec0 button a{
+        text-decoration: none ;
+        color: white;
+    }
 }
 
                                                                             /* section 1 */
@@ -152,6 +161,7 @@ html,body{
 .inr_o_bg input,button{
     display: block;
     gap: 20px;
+    cursor: pointer;
 }
 .inr_o_bg h1{
     text-align: center;
@@ -214,6 +224,7 @@ html,body{
 .title_underline{
     height: 2px;
     width: 80px;
+    border-radius: 13px;
     background-color: #ffca20;
 }
 .sevices .img_panel img{
@@ -333,11 +344,16 @@ html,body{
         padding:40px 0;
         display: block;
         /* margin :0;     */
-    }
-    
-    
-    
+    }   
 }
+/* @media(max-width:470px){
+    .inr_main img{
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+
+} */
                                                                     /* part-3 */
 .text_cont a .dwarf{
     margin-left: 10px;
@@ -395,6 +411,7 @@ html,body{
 
 .sec-4 .apps_main .TU_align{
     /* align-items: center; */
+    
 }
 .sec-4 .apps .app img{
     width: 80px;
@@ -413,7 +430,10 @@ html,body{
 
     width: 150px;
 }
-
+.sec-4 .app a{
+    text-decoration: none;
+    color: white;
+}
                                                             /* footer starts here */
 .footi{
 
@@ -439,7 +459,7 @@ html,body{
     /* margin: 20px; */
     background-color: rgb(174, 182, 195);
     height: .25px;
-    width: 30%;
+    width: 100%;
 }
 
                                                                         /* footer starts here */
@@ -470,6 +490,10 @@ html,body{
 }
 .indi_foot{
     padding: .5rem;
+}
+.indi_foot a{
+    text-decoration: none;
+    color: black;
 }
 
                                                             /* last copywrite */
