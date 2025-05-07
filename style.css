@@ -7,10 +7,8 @@
     font-family: "Raleway", sans-serif;
     /* font-weight: 00; */
     
-    /* max-width: 1200px; */
 }
 html,body{
-    /* max-width: 1200px; */
 
     width: 100%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -95,6 +93,7 @@ html,body{
 
 @media(max-width:515px){
     .nav-bar {
+        display: block;
         /* width: 100%; */
         /* coment */
     }
@@ -107,7 +106,7 @@ html,body{
         /* coment */
     }
     .nav-bar ul {
-        display: none;
+        /* display: none; */
     }
 }
 
@@ -118,10 +117,20 @@ html,body{
     }
     
     .nav-bar ul{
-        display: none;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         padding: .3rem .8rem;
         text-align: center;
+    }
+    .nav-bar ul li{
+        padding: 10px;
+    }
+    .sec0 button {
+        display: none;
+    }
+    .hidden_opts img{
+        display: none;
     }
     .sec0 button a{
         text-decoration: none ;
@@ -232,6 +241,7 @@ html,body{
     height: 120px;
 }
 .sevices .img_panel{
+    text-align: center;
     width: 100%;
     padding: 26px 10px 10px 0px;
     display: grid;
@@ -334,6 +344,13 @@ html,body{
 .heros{
     /* display:  */
 }       
+@media(max-width:347px){
+    .bg_grey .inr_main img{
+        width: 230px;
+        height: 230px;        
+    }
+}
+
 @media(max-width:749px){
     .heros{
         display: block;
